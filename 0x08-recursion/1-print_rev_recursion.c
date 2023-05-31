@@ -6,8 +6,8 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int n
-	n = [s]
+	
+	int n = [*s]
 
 	if (n = 0)
 	{
