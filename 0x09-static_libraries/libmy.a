@@ -1,0 +1,142 @@
+!<arch>
+0-isupper.o/    0           0     0     644     44        `
+#include "main.h"
+
+int _isupper(int c);
+{
+}
+0-strcat.o/     0           0     0     644     68        `
+#include "main.h"
+
+char *_strncat(char *dest, char *src, int n);
+{}
+1-isdigit.o/    0           0     0     644     43        `
+#include "main.h"
+
+int _isdigit(int c);
+{}
+
+1-strncat.o/    0           0     0     644     68        `
+#include "main.h"
+
+char *_strncat(char *dest, char *src, int n);
+{}
+0-memset.o/     0           0     0     644     76        `
+#include "main.h"
+
+char *_memset(char *dest, char *src, unsigned int n);
+{}
+100-atoi.o/     0           0     0     644     42        `
+#include "main.h"
+
+int _atoi(char *s);
+{}
+1-memcpy.o/     0           0     0     644     76        `
+#include "main.h"
+
+char *_memcpy(char *dest, char *src, unsigned int n);
+{}
+2-strchr.o/     0           0     0     644     65        `
+#include "main.h"
+
+char *_strchr(char *s, char c);
+
+{
+	return;
+}
+
+2-strlen.o/     0           0     0     644     55        `
+#include 'main.h'
+
+int _strlen(char *s);
+{ 
+	return;
+}
+
+2-strncpy.o/    0           0     0     644     78        `
+#include 'main.h'
+
+char *_strncpy(char *dest, char *src, int n);
+{
+	return;
+}
+3-islower.o/    0           0     0     644     53        `
+#include 'main.h'
+
+int _islower(int c);
+{
+	return;
+}
+
+3-puts.o/       0           0     0     644     55        `
+#include 'main.h'
+
+void _puts(char *s);
+{ 
+	return;
+}
+
+
+3-strcmp.o/     0           0     0     644     64        `
+#include 'main.h'
+
+int _strcmp(char *s1, char *s2)
+{
+	return;
+}
+3-strspn.o/     0           0     0     644     77        `
+#include 'main.h'
+
+unsigned int _strspn(char *s, char *accept);
+{
+	return;
+}
+
+4-isalpha.o/    0           0     0     644     54        `
+#include 'main.h'
+
+int _isalpha(int c);
+{
+	return;
+}
+
+4-strpbrk.o/    0           0     0     644     71        `
+#include 'main.h'
+
+char *_strpbrk(char *s, char *accept);
+{
+	return;
+}
+
+5-strstr.o/     0           0     0     644     77        `
+#include 'main.h'
+
+char *_strstr(char *haystack, char *needle);
+{
+	return;
+}
+
+6-abs.o/        0           0     0     644     49        `
+#include 'main,h'
+
+int _abs(int n);
+{
+	return;
+}
+
+9-strcpy.o/     0           0     0     644     70        `
+#include 'main.h'
+
+char *_strcpy(char *dest, char *src);
+{
+	return;
+}
+_putchar.o/     0           0     0     644     55        `
+#include 'main.h'
+
+int _putchar(char c);
+{
+	return;
+}
+
+
