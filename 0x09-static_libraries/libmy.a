@@ -1,0 +1,11 @@
+!<arch>
+0-isupper.o/    0           0     0     644     55        `
+#include "main.h"
+
+int _isupper(int c);
+
+{ return;
+
+}
+
+
