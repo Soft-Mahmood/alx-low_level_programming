@@ -1,0 +1,38 @@
+!<arch>
+0-isupper.o/    0           0     0     644     44        `
+#include "main.h"
+
+int _isupper(int c);
+{
+}
+0-strcat.o/     0           0     0     644     68        `
+#include "main.h"
+
+char *_strncat(char *dest, char *src, int n);
+{}
+1-isdigit.o/    0           0     0     644     43        `
+#include "main.h"
+
+int _isdigit(int c);
+{}
+
+1-strncat.o/    0           0     0     644     68        `
+#include "main.h"
+
+char *_strncat(char *dest, char *src, int n);
+{}
+0-memset.o/     0           0     0     644     76        `
+#include "main.h"
+
+char *_memset(char *dest, char *src, unsigned int n);
+{}
+100-atoi.o/     0           0     0     644     42        `
+#include "main.h"
+
+int _atoi(char *s);
+{}
+1-memcpy.o/     0           0     0     644     76        `
+#include "main.h"
+
+char *_memcpy(char *dest, char *src, unsigned int n);
+{}
