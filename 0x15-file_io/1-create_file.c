@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * create_file create a file.
- * @filename is the name of the file
- * @text_content is a null terminated string to write to the file.'
- * returns 1 on success and -1 on failure.
- * if the file already exists, it is truncated.
- * if the filename is null, it returns -1.
- * if text_content is null, creates an empty file.
+ * create_file - creates a file and fills it with text
+ * @filename: name of the file to create
+ * @text_content: text to write in the file
+ *
+ * Return: 1 on success, -1 on failure
  */
-
 int create_file(const char *filename, char *text_content)
 {
 	int fd, t, s = 0;
@@ -26,9 +23,11 @@ int create_file(const char *filename, char *text_content)
 		while (text_content[s])
 			s++;
 		t = write(fd, text_content, s);
-		if (t !=s)
+		if (t != s)
 			return (-1);
 	}
+
 	close(fd);
+
 	return (1);
-}	
+}
