@@ -5,9 +5,9 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s is a singly linked list
- * n is and integer
- * @next points to the next node
+ * struct listint_s - is a singly linked list
+ * @n: is and integer
+ * @next: points to the next node
  *
  */
 
