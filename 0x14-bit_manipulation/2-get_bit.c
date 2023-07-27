@@ -3,6 +3,7 @@
 /**
  * get_bit - returns the value of a bit
  * @index: is the index
+ * @n: is the value
  * Return: the value of the bit
  * returns -1 incase of an error.
  */
