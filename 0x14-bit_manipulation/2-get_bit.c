@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * get_bit returns the value of a bit 
- * at an index @ index
- * returns the value of the bit 
+ * get_bit - returns the value of a bit
+ * @index: is the index
+ * Return: the value of the bit
  * returns -1 incase of an error.
  */
 int get_bit(unsigned long int n, unsigned int index)
